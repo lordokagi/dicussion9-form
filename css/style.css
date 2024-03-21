@@ -1,12 +1,13 @@
   /* Create an accessible color palette using var()function */
   /* https://www.w3schools.com/css/css3_variables.asp */
-  
+
   form {
+    font-family: mae-variable, sans-serif;
     display: grid;
     grid-template-columns: 50% 50%;
     border: 1px solid #ccc;
     border-radius: 16px;
-    width:70%;
+    width: 70%;
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -19,9 +20,11 @@
     grid-column-end: 3;
     /* background: #575294; */
     color: black;
+    font-family: mae-variable, sans-serif;
   }
 
   #name {
+    font-family: mae-variable, sans-serif;
     width: 100%;
     padding: 10px;
     font-size: 18px;
@@ -41,9 +44,11 @@
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%;
+    font-family: mae-variable, sans-serif;
   }
 
   input[type="submit"] {
+    font-family: mae-variable, sans-serif;
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -55,4 +60,8 @@
 
   input[type="submit"]:hover {
     background-color: #45a049;
+  }
+
+  body {
+    font-family: mae-variable, sans-serif;
   }
